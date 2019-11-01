@@ -1,0 +1,73 @@
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+  .main-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: inline-block;
+  }
+
+  .header-card {
+    position: unset;
+    top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .section-title h3 {
+    font-size: 28px;
+  }
+
+  .about-me-info-box {
+    margin-bottom: 30px;
+  }
+
+  .single-box {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-filter ul li a {
+    font-size: 14px;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .brand h2 {
+    font-size: 18px;
+  }
+
+  .card-description p,
+  p.about-myself {
+    font-size: 14px;
+  }
+
+  .single-post-details h3.entry-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .meta {
+    font-size: 11px;
+  }
+
+  .post-popup-header {
+    height: 275px;
+  }
+
+  .post-header-details span.cat {
+    font-size: 14px;
+  }
+
+  .post-header-details h3.entry-title {
+    font-size: 22px;
+  }
+
+  .post-popup-paragraph p {
+    font-size: 16px;
+  }
+
+  .map {
+    height: 220px;
+  }
+}
